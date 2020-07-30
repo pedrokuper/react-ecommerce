@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.scss";
-
-
+import Button from "../Button";
 class Checkout extends React.Component {
   render() {
     return (
@@ -86,7 +85,9 @@ class Checkout extends React.Component {
             </div>
           </div>
         </div>
-        
+        <div className="button">
+          <Button />
+        </div>
       </div>
     );
   }
